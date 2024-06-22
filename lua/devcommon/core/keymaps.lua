@@ -41,3 +41,9 @@ keymap.set("n", "<leader>tj", "<C-w>j", { desc = "Move to the terminal split" })
 
 -- Move back to the previous split (assuming it's on the top)
 keymap.set("n", "<leader>tk", "<C-w>k", { desc = "Move back to the previous split" })
+
+keymap.set("t", "<Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" }) -- exit terminal mode using <Esc>
+keymap.set("t", "<C-h>", [[<Cmd>wincmd h<CR>]], { desc = "Move to left window" })
+keymap.set("t", "<C-j>", [[<Cmd>wincmd j<CR>]], { desc = "Move to lower window" })
+keymap.set("t", "<C-k>", [[<Cmd>wincmd k<CR>]], { desc = "Move to upper window" })
+keymap.set("t", "<C-l>", [[<Cmd>wincmd l<CR>]], { desc = "Move to right window" })
