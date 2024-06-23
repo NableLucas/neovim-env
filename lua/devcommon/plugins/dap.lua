@@ -69,6 +69,13 @@ return {
 					django = true,
 					justMyCode = true,
 				},
+				{
+					type = "debugpy",
+					name = "Python debug current file",
+					request = "launch",
+					program = "${file}",
+					console = "integratedTerminal",
+				},
 			}
 
 			-- Keybindings
