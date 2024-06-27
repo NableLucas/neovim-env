@@ -4,6 +4,7 @@ return {
 	build = ":TSUpdate",
 	dependencies = {
 		"windwp/nvim-ts-autotag",
+		"RRethy/vim-illuminate",
 	},
 	config = function()
 		-- import nvim-treesitter plugin
