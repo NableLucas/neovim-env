@@ -53,3 +53,12 @@ keymap.set("n", "<C-y>", "<C-r>", { noremap = true, silent = true })
 
 keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>", { noremap = true, silent = true })
 keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", { noremap = true, silent = true })
+
+keymap.set("n", "<M-Left>", "<C-w>h", { noremap = true, silent = true })
+keymap.set("n", "<M-Down>", "<C-w>j", { noremap = true, silent = true })
+keymap.set("n", "<M-Up>", "<C-w>k", { noremap = true, silent = true })
+keymap.set("n", "<M-Right>", "<C-w>l", { noremap = true, silent = true })
+keymap.set("t", "<M-Left>", "<C-\\><C-N><C-w>h", { noremap = true, silent = true })
+keymap.set("t", "<M-Down>", "<C-\\><C-N><C-w>j", { noremap = true, silent = true })
+keymap.set("t", "<M-Up>", "<C-\\><C-N><C-w>k", { noremap = true, silent = true })
+keymap.set("t", "<M-Right>", "<C-\\><C-N><C-w>l", { noremap = true, silent = true })
